@@ -13,7 +13,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class=" h-full font-sans antialiased dark:bg-black dark:text-white/50">
+<body class=" h-full font-sans antialiased ">
     <div class="min-h-full">
         <nav class="bg-gray-800">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
