@@ -8,9 +8,12 @@
                 </div>
                 <div>
                     <strong>{{ $job['title'] }}</strong> pays:
-                    {{ $job['salary'] }}
+                    {{ $job['salary'] }}++
                 </div>
             </a>
         @endforeach
+    </div>
+    <div>
+        {{ $jobs->links() }}
     </div>
 </x-layout>
