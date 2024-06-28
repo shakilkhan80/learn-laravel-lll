@@ -8,7 +8,7 @@
                 </div>
                 <div>
                     <strong>{{ $job['title'] }}</strong> pays:
-                    {{ $job['salary'] }}++
+                    {{ $job['salary'] }}
                 </div>
             </a>
         @endforeach
