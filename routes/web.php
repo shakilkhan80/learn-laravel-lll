@@ -31,7 +31,7 @@ Route::get('/jobs/{id}', function ($id) {
 Route::post('/jobs', function () {
 
     request()->validate([
-        
+
         'title'  => ['required', 'min:3'],
         'salary' => ['required'],
     ]);
@@ -45,6 +45,22 @@ Route::post('/jobs', function () {
     return redirect('/jobs');
 });
 
+Route::get('/jobs/{id}', function ($id) {
+
+    $job = Job::find($id);
+
+    return view('jobs.show', [
+        'job' => $job
+    ]);
+});
+Route::get('/jobs/{id}/edit', function ($id) {
+
+    $job = Job::find($id);
+
+    return view('jobs.edit ', [
+        'job' => $job
+    ]);
+});
 Route::get('/contact', function () {
     return view('contact');
 });
