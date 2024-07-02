@@ -8,6 +8,10 @@ Route::view("/", 'home');
 
 Route::resource('jobs', JobController::class);
 
+// Route::get('/', function (){
+//     return view('home');
+// });
+
 // Route::resource('jobs', JobController::class, [
 //     'except' => ['edit']
 // ]);
