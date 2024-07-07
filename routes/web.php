@@ -47,5 +47,4 @@ Route::post("/logout", [SessionController::class, "destroy"]);
 //     Route::delete('/jobs/{job}', 'destroy');
 // });
 
-
 Route::view("/contact", 'contact');
