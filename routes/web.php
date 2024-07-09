@@ -6,6 +6,15 @@ use Illuminate\Support\Facades\Route;
 use App\Models\Job;
 use App\Http\Controllers\JobController;
 
+// Route::get('test', function () {
+//     Illuminate\Support\Facades\Mail::to('khanshakil.official@gmail.com')->send(new \App\Mail\JobPosted());
+
+//     return "Done";
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+
 Route::view("/", 'home');
 
 // Route::resource('jobs', JobController::class)->only(['index', 'show']);
