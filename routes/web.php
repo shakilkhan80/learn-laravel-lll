@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\RegisteredUserController;
 use App\Http\Controllers\SessionController;
+use App\Jobs\TranslateJob;
 use Illuminate\Support\Facades\Route;
 use App\Models\Job;
 use App\Http\Controllers\JobController;
@@ -13,6 +14,20 @@ use App\Http\Controllers\JobController;
 // });
 // Route::get('test', function () {
 //     return new \App\Mail\JobPosted();
+// });
+
+Route::get("/test", function () {
+    $job = Job::first();
+
+    TranslateJob::dispatch($job);
+    return "Done";
+});
+// Route::get("/test", function () {
+//     dispatch(function () {
+//         logger("Email from the queue");
+//     })->delay(5);
+
+//     return "Done";
 // });
 
 Route::view("/", 'home');
