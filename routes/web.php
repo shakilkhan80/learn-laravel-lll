@@ -9,7 +9,6 @@ use App\Http\Controllers\JobController;
 
 // Route::get('test', function () {
 //     Illuminate\Support\Facades\Mail::to('khanshakil.official@gmail.com')->send(new \App\Mail\JobPosted());
-
 //     return "Done";
 // });
 // Route::get('test', function () {
