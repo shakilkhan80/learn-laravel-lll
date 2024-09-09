@@ -31,8 +31,6 @@ use App\Http\Controllers\JobController;
 // });obPosted();
 // });// Route::get('test', function () {
 //     return new \App\Mail\JobPosted();
-// });// Route::get('test', function () {
-//     return new \App\Mail\JobPosted();
 // });
 
 
