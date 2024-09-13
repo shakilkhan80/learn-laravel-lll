@@ -23,9 +23,6 @@ use App\Http\Controllers\JobController;
 //     return new \App\Mail\JobPosted();
 // });// Route::get('test', function () {
 //     return new \App\Mail\JobPosted();
-// });// Route::get('test', function () {
-//     return new \App\Mail\// Route::get('test', function () {
-//     return new \App\Mail\JobPosted();
 // });
 
 Route::get("/test", function () {
