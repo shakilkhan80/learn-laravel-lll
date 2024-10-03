@@ -82,9 +82,6 @@ use App\Http\Controllers\JobController;
 //     return new \App\Mail\JobPosted();
 // });
 // });
-// Route::get('test', function () {
-//     return new \App\Mail\JobPosted();
-// });
 
 Route::get("/test", function () {
     $job = Job::first();
