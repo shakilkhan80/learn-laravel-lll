@@ -26,6 +26,81 @@ use App\Http\Controllers\JobController;
 // Route::get('test', function () {
 //     return new \App\Mail\JobPosted();
 // });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
+// Route::get('test', function () {
+//     return new \App\Mail\JobPosted();
+// });
 
 
 Route::get("/test", function () {
