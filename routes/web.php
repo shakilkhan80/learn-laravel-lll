@@ -178,10 +178,7 @@ use App\Http\Controllers\JobController;
 // });
 // Route::get('test', function () {
 //     return new \App\Mail\JobPosted();
-// });
-// Route::get('test', function () {
-//     return new \App\Mail\JobPosted();
-// });
+// })
 
 
 
@@ -206,8 +203,7 @@ Route::view("/", 'home');
 // Route::resource('jobs', JobController::class)->except(['index', 'show'])->middleware('auth');
 
 Route::get('/jobs', [JobController::class, 'index']);
-Route::get('jobs/create', [JobController::class, 'create']);
-Route::post('/jobs', [JobController::class, 'store'])->middleware('auth');
+Route::get('jobs/create', [JobController::class, 'create']class, 'store'])->middleware('auth');
 Route::get('/jobs/{job}', [JobController::class, 'show']);
 Route::get('/jobs/{job}/edit', [JobController::class, 'edit'])->middleware('auth')->can('edit-job', 'job');
 // Route::get('/jobs/{job}/edit', [JobController::class, 'edit'])->middleware('auth')->can('edit-job', 'job');
