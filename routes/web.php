@@ -142,7 +142,6 @@ use App\Http\Controllers\JobController;
 // });
 
 
-
 Route::get("/test", function () {
     $job = Job::first();
 
