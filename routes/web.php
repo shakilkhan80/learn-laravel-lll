@@ -99,8 +99,7 @@ use App\Http\Controllers\JobController;
 //     return new \App\Mail\JobPosted();
 // });
 // Route::get('test', function () {
-//     return new \App\Mail\JobPosted();
-// });
+
 
 Route::get("/test", function () {
     $job = Job::first();
@@ -124,7 +123,7 @@ Route::view("/", 'home');
 Route::get('/jobs', [JobController::class, 'index']);
 Route::get('jobs/create', [JobController::class, 'create']class, 'store'])->middleware('auth');
 Route::get('/jobs/{job}', [JobController::class, 'show']);
-Route::get('/jobs/{job}/edit', [JobController::class, 'edit'])->middleware('auth')->can('edit-job', 'job');
+Route::get('/joler::class, 'edit'])->middleware('auth')->can('edit-job', 'job');
 // Route::get('/jobs/{job}/edit', [JobController::class, 'edit'])->middleware('auth')->can('edit-job', 'job');
 Route::patch('/jobs/{job}', [JobController::class, 'update']);
 // Route::patch('/jobs/{job}', [JobController::class, 'update'])->middleware(['auth', 'can:edit-job,job']);
